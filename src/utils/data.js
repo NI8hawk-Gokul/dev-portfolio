@@ -23,6 +23,7 @@ import Project_Image_2 from "../assets/images/project-2.jpg";
 import Project_Image_3 from "../assets/images/project-3.jpg";
 import Project_Image_4 from "../assets/images/project-4.jpg";
 import Project_Image_5 from "../assets/images/project-5.jpg";
+import Project_Image_6 from "../assets/images/project-6.jpg";
  
 
 
@@ -105,7 +106,7 @@ export const PROJECTS = [
     title: "Neuropick - centralized Review Platform",
     description:
       "Neuropick is an AI-powered full-stack platform that analyzes user emotions and delivers intelligent, personalized chatbot interactions in real time",
-    image: PROJECT_IMG_1,
+    image: Project_Image_1,
     tags: ["React", "Node.js", "AI"],
     liveUrl: "#",
     githubUrl: "#",
@@ -117,7 +118,7 @@ export const PROJECTS = [
     title: "Real-Time Racing Track",
     description:
       "Built an immersive VR-based racing track simulator in Unity that enables users to virtually experience race environments, analyze track layouts, and improve preparation before real-world racing events.",
-    image: PROJECT_IMG_2,
+    image: Project_Image_2,
     tags: ["Unity", "VR", "C#", "Simulation"],
     liveUrl: "#",
     githubUrl: "#",
@@ -129,7 +130,7 @@ export const PROJECTS = [
     title: "Stock Price Prediction using CNN",
     description:
       "Built an AI-driven stock market forecasting system using Convolutional Neural Networks (CNN) to analyze historical financial data, detect market trends, and generate accurate future price predictions.",
-    image: PROJECT_IMG_3,
+    image: Project_Image_3,
     tags: ["Python", "TensorFlow", "Keras", "Machine Learning", "CNN"],
     liveUrl: "#",
     githubUrl: "#",
@@ -141,7 +142,7 @@ export const PROJECTS = [
     title: "Blockchain Hashing & Verification System",
     description:
         "Built a blockchain-powered security system utilizing SHA-256 hashing algorithms to maintain secure, decentralized, and immutable data records with enhanced integrity verification.",
-    image: PROJECT_IMG_4,
+    image: Project_Image_4,
     tags: ["Blockchain", "Python", "Cryptography", "SHA-256", "Web3"],
     liveUrl: "#",
     githubUrl: "#",
@@ -153,13 +154,32 @@ export const PROJECTS = [
   title: "AI Emotional Chatbot",
   description:
     "Built an intelligent emotional chatbot using React, FastAPI, and NLP models to analyze user emotions and provide adaptive, human-like conversational responses with real-time emotion detection.",
-  image: PROJECT_IMG_5,
+  image: Project_Image_5,
   tags: ["React", "FastAPI", "Hugging Face", "OpenAI API", "Python"],
   liveUrl: "#",
   githubUrl: "#",
   featured: true,
   category: "AI/ML",
  },
+ {
+  id: 6,
+  title: "AI Air Cargo Tracking & Logistics Platform",
+  description:
+    "Built an enterprise-grade AI-powered air cargo tracking platform using React, Express.js, and AI-driven logistics intelligence to provide real-time shipment monitoring, AWB tracking, OCR document parsing, geofencing alerts, and smart operational management.",
+  image: Project_Image_6,
+  tags: [
+    "React 19",
+    "Express.js",
+    "Leaflet",
+    "AI",
+    "OCR",
+    "Logistics"
+  ],
+  liveUrl: "#",
+  githubUrl: "#",
+  featured: true,
+  category: "AI/Logistics",
+},
 ];
 
 export const JOURNEY_STEPS = [
@@ -184,7 +204,7 @@ export const JOURNEY_STEPS = [
     title: "Explored Full-Stack Development",
     description:
       "Learned frontend and backend technologies including React, Node.js, and databases while building responsive web applications and mini projects.",
-    icon: Code,
+    icon:Code2,
     color: "bg-green-500",
   },
   {
@@ -202,15 +222,15 @@ export const JOURNEY_STEPS = [
     Company: "ZTECH10R SYS PVT LTD",
     description:
         "Completed a web development internship at ZTECH10R SYS PVT LTD  where I enhanced my skills in front-end design, back-end logic implementation, and database management. I analyzed user experience data, prepared reports on industry best practices, managed multiple projects, coordinated with cross-functional teams, and ensured timely delivery of project milestones.",
-    icon: Code,
+    icon:Code2,
     color: "bg-orange-500",
   },
   {
     year: "2026",
-    title: "Graduated with B.Tech in AI & Data Science & Software Developer Internship",
+    title: "Software Developer Internship",
     Company: "WWL PVT LTD Present",
     description:
-        "Graduated with a B.Tech degree in Artificial Intelligence & Data Science from DMI College of Engineering. Currently working as a Software Developer Intern at a worldwide logistics company, gaining hands-on experience in real-world software development, AI integration, and scalable application development.",
+        " Currently working as a Software Developer Intern at a worldwide logistics company, gaining hands-on experience in real-world software development and scalable application development.",
     icon: Rocket,
     color: "bg-red-500",
   },
