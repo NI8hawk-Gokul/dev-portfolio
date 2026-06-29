@@ -94,10 +94,10 @@ export const TECH_STACK = [
 ];
 
 export const STATS = [
-  { number: "50+", label: "Projects Completed" },
+  { number: "8+", label: "Projects Completed" },
   { number: "3+", label: "Years Experience" },
   { number: "20+", label: "Technologies" },
-  { number: "100%", label: "Client Satisfaction" },
+  { number: "100%", label: "Results" },
 ];
 
 export const PROJECTS = [
@@ -109,7 +109,7 @@ export const PROJECTS = [
     image: Project_Image_1,
     tags: ["React", "Node.js", "AI"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/NI8hawk-Gokul/Nuropick",
     featured: true,
     category: "AI",
   },
@@ -145,7 +145,7 @@ export const PROJECTS = [
     image: Project_Image_4,
     tags: ["Blockchain", "Python", "Cryptography", "SHA-256", "Web3"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/NI8hawk-Gokul/hashing",
     featured: true,
     category: "Blockchain",
   },
@@ -157,7 +157,7 @@ export const PROJECTS = [
   image: Project_Image_5,
   tags: ["React", "FastAPI", "Hugging Face", "OpenAI API", "Python"],
   liveUrl: "#",
-  githubUrl: "#",
+  githubUrl: "https://github.com/NI8hawk-Gokul/emotion-chatbot",
   featured: true,
   category: "AI/ML",
  },
@@ -175,8 +175,8 @@ export const PROJECTS = [
     "OCR",
     "Logistics"
   ],
-  liveUrl: "#",
-  githubUrl: "#",
+  liveUrl: "https://dev-portfolio-five-nu.vercel.app",
+  githubUrl: "https://github.com/NI8hawk-Gokul/AI-AIR-CARGO-TRACKING",
   featured: true,
   category: "AI/Logistics",
 },
